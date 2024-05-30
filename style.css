@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Figtree;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    height: 565px;
+    width: 395px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+.imgContainer img{
+    display: flex;
+    height: 210px;
+    border-radius: 20px;
+    margin: 1.5rem auto 0 auto;
+}
+
+.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    margin: 1rem 0 0 2rem;
+    height: 3rem;
+    width: 6.5rem;
+    border-radius: 10px;
+}
+
+.learning h2{
+    font-family: Figtree;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.publish-date{
+    font-family: Figtree;
+    font-weight: 500;
+    font-size: 15.5px;
+    margin: 1rem 0 0 2rem;
+
+}
+
+.box1 h1{
+    font-family: Figtree;
+    margin: 1rem 0 0 2rem;
+    font-size: 24.5px;
+    font-weight: 800;
+}
+
+.paragraph p{
+    font-family: Figtree;
+    margin: 10px 0 0 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+}
+
+.imgContainer2{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgContainer2 img{
+    margin: 1.5rem 0 0 2rem;
+    height: 50px;
+}
+
+.imgContainer2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20.5px 0 0 16px;
+    font-family: Figtree;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 375px) {
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box1{
+        height: 525px;
+        width: 320px;
+    }
+
+    .imgContainer img{
+        height: 170px;
+    }
+
+    .learning{
+        margin: 1.5rem 0 0 1.3rem;
+        height: 2.5rem;
+        width: 5.5rem;
+    }
+
+    .learning h2{
+        font-size: 16px;
+    }
+
+    .publish-date{
+        margin: 1rem 0 0 1.5rem;
+        font-size: 14.5px;
+    }
+
+    .box1 h1{
+        margin: 1rem 0 0 1.5rem;
+        font-size: 20px;
+    }
+
+    .paragraph p{
+        margin: 1rem 0 0 1.5rem;
+        font-size: 13.5px;
+    }
+
+    .imgContainer2 img{
+        height: 2.5rem;
+        margin: 1.5rem 0 0 1.5rem;
+    }
+
+    .imgContainer2 h2{
+        font-size: 18px;
+    }
+}
+
+
+
+
